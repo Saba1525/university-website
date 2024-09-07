@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./wp2468660-university-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+h2{
+    color: aliceblue;
+}
+.nav img{
+    height: 80px;
+    width: 70px;
+    
+}
+.nav-link {
+    display: flex;
+    margin-top: 15px;
+    
+}
+.nav-link li {
+    margin-left: 60px;
+    list-style: none;
+}
+.nav-link a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+span{
+    color: greenyellow;
+}
+.nav-link a:hover{
+    color: greenyellow;
+    transition: .7s;
+  
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9%;
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.title p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.title a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid aliceblue;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.title a:hover{
+    background-color: green;
+    transition: .7s;
+   border: 1px solid green;
+}
+
+/*----course---*/
+
+.course{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+.title2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title2 h2{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    top: 90px;
+    margin-bottom: 30px;
+}
+.title2 .para{
+    position: relative;
+    top: 70px;
+    font-size: large;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.box{
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: px;
+    background-color: #fff3f3;
+    transition: .7s;
+   
+}
+.box h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+
+}
+.box p{
+    font-size: large;
+}
+.box:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
+    
+}
+/*---global---*/
+
+.global{
+    width: 100%;
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.title3{
+    text-align: center;
+}
+.global h2{
+    color: black;
+    position: relative;
+    top: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.global p{
+    color: black;
+    position: relative;
+    top: 200px;
+    font-size: large;
+}
+
+.global-col{
+    margin: 20px;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.global-col h3{
+text-align: center;
+margin-top: 20px;
+padding: 10px;
+background-color: white;
+width: 90px;
+color: green;
+border: 1px solid green;
+transition: .7s;
+}
+.global-col .lon{
+    text-align: center;
+}
+.global-col h3:hover{
+    border: 1px solid green ;
+    background-color: green;
+    color: white;
+}
+
+.global-col img{
+    width: 500px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: .7s;
+    
+}
+.global-col img:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
+   
+}
+
+
+
+
+/*-----facilitoies-----*/
+.facilities{
+    width: 100%;
+    text-align: center;
+}
+.facilities1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facilities1 img{
+    height: 400px;
+    margin-top: 300px;
+   border-radius: 10px;
+   width: 300px;
+   margin-left: 50px;
+   margin-right: 50px;
+   transition: .7s;
+}
+.facilities1 img:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.6);
+}
+.facilities1 p{
+   width: 350px;
+   
+}
+.facilities1 h3{
+    margin-top: 30px;
+    border: 1px solid green;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    color: green;
+    margin-top: 30px;
+    transition: .7s;
+}
+.facilities1 h3:hover{
+    background-color: green;
+    color: white;
+}
+
+.facilities h2{
+    margin-top: 100px;
+}
+.facilities .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+/*----call to action----*/
+.cta{
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./office.jpg);
+    background-position: center;
+    background-size: cover;
+  
+    margin-bottom: 100px;
+    border-radius: 30px;
+    margin: 100px auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.cta h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.cta a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid aliceblue;
+    
+    font-size: 20px;
+}
+.cta a:hover{
+    background-color: green;
+    transition: .7s;
+   border: 1px solid green;
+}
+
+
+/*-----footer----*/
+.footer{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.footer h6{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.icons{
+    margin: 30px;
+}
+.icons a{
+    color: green;
+   margin-left: 30px;
+   margin-right: 20px;
+   font-size: 30px;
+}
+.icons a:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+/*----about us----*/
+.sub-header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./pexels-pixabay-267885.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+.sub-header h1{
+text-align: center;
+color: white;
+font-size: 30px;
+margin-top: 50px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 150px;
+
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.about-col h1{
+    font-size: 40px;
+
+}
+.about-col p{
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.about-col a{
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 20px;
+    transition: .7s;
+    
+}
+.about-col a:hover{
+    background-color: green;
+   border: 1px solid white;
+   color: white;
+   
+}
+/*----contact----*/
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+}
+.location iframe{
+width: 100%;
+}
